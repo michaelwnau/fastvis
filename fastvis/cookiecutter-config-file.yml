@@ -1,7 +1,7 @@
 default_context:
   project_name: 'fastvis'
   project_slug: 'fastvis'
-  domain_main: 'fastvis.netlfiy.app'
+  domain_main: 'fastvis.netlify.app'
   domain_staging: 'stag.fastvis.netlify.app'
   docker_swarm_stack_name_main: 'fastvis-netlify-app'
   docker_swarm_stack_name_staging: 'stag-fastvis-netlify-app'
@@ -13,7 +13,7 @@ default_context:
   smtp_host: ''
   smtp_user: ''
   smtp_password: ''
-  smtp_emails_from_email: 'info@fastvis.netlfiy.app'
+  smtp_emails_from_email: 'info@fastvis.netlify.app'
   postgres_password: 'fb61a60c875df6d6349dbda1f70d6e0add845c287c67601001c1f61634e91c4e'
   pgadmin_default_user: 'admin@fastvis.netlify.app'
   pgadmin_default_user_password: '2358BelethEl76!08'
@@ -24,7 +24,7 @@ default_context:
   sentry_dsn: ''
   docker_image_prefix: 'michaelwnau/fastvis'
   docker_image_backend: 'michaelwnau/fastvis/backend'
-  docker_image_celeryworker: 'michaelwnau/fastvisceleryworker'
+  docker_image_celeryworker: 'michaelwnau/fastvis/celeryworker'
   docker_image_frontend: 'michaelwnau/fastvis/frontend'
   _copy_without_render: [frontend/src/**/*.html, frontend/src/**/*.vue, frontend/node_modules/*, backend/app/app/email-templates/**]
   _template: ./
